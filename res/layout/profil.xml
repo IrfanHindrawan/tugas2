@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/tvsatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profil"
+        />
+    
+    <TextView
+        android:id="@+id/tvdua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="irfan"
+        android:layout_below="@+id/tvsatu"
+        />
+    
+    <TextView
+        android:id="@+id/tvtiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="183303030002"
+        android:layout_below="@+id/tvdua"
+        />
+
+</RelativeLayout>
